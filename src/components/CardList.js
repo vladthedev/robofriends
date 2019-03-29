@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card.js';
+import Card from '../components/Card.js';
 const CardList=({robots})=>{
     const cardComponent= robots.map((user, i) => {
         return (<Card 
